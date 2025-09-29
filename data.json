@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "price": 899.99,
+      "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera tripla.",
+      "image": "https://via.placeholder.com/300x200?text=Smartphone"
+    },
+    {
+      "id": 2,
+      "name": "Notebook",
+      "price": 2499.99,
+      "description": "Notebook com processador i7, 16GB RAM, SSD 512GB e placa de vídeo dedicada.",
+      "image": "https://www.diamanteinformatica.com.br/notebook-hp-intel-core-i3-8gb-256gb-ssd-156"
+    },
+    {
+      "id": 3,
+      "name": "Fone",
+      "price": 199.99,
+      "description": "Fone de ouvido sem fio com cancelamento de ruído e bateria de 20 horas.",
+      "image": "https://via.placeholder.com/300x200?text=Fone"
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch",
+      "price": 399.99,
+      "description": "Relógio inteligente com monitor de batimento cardíaco e GPS integrado.",
+      "image": "https://via.placeholder.com/300x200?text=Smartwatch"
+    }
+  ]
+}

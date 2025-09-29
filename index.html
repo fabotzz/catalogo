@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual - Catálogo e Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Minha Loja Virtual</h1>
+            <p>Catálogo e Carrinho de Compras</p>
+        </header>
+        
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="catalogo">Catálogo</button>
+            <button class="tab-button" data-tab="carrinho">Carrinho</button>
+        </nav>
+        
+        <main>
+            <section id="catalogo" class="tab-content active">
+                <h2>Catálogo de Produtos</h2>
+                <div class="products-grid" id="products-grid">
+                </div>
+            </section>
+            
+            <section id="carrinho" class="tab-content">
+                <h2>Seu Carrinho de Compras</h2>
+                <div class="cart-container">
+                    <div id="cart-items" class="cart-items">
+                    </div>
+                    <div class="cart-total">
+                        Total: R$ <span id="cart-total">0,00</span>
+                    </div>
+                    <button class="checkout-btn" id="checkout-btn">Finalizar Compra</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
